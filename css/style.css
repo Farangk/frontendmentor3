@@ -1,0 +1,63 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Grey900);
+    color:var(--White);
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
+
+    
+}
+
+.container{ 
+    background-color: var(--Grey800);
+    max-width: 340px;   
+    margin: 80px auto;
+    padding:1px 3px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+img{
+    margin-top:30px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+}
+.nombre{
+    margin-bottom: 1px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.pais{
+    color: var(--Green);
+}
+.dev{
+    font-weight: 300;
+    color: var(--White);
+    margin-bottom: 0;
+}
+
+.redes-container{
+    margin-bottom:30px;
+    max-width: 90%;
+    margin:1px 90%;
+    text-align: center;
+}
+
+.redes{
+    background-color: var(--Grey700);
+    padding: 13px 105px;
+    border-radius: 8px;
+}
